@@ -5,7 +5,7 @@ type InputProps = {
 
 export const Input = ({ value, handleChange }: InputProps) => {
   // We can even define the function here as well
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     console.log(e);
   };
 
